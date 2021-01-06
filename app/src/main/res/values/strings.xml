@@ -1,12 +1,18 @@
 <resources>
-    <string name="app_name">Alodokter Mobile Test</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_name">Alodokter</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="login_subtitlte">Masuk untuk mengakses konten seru!</string>
+    <string name="login_title">LOGOAPP</string>
+    <string name="title_home">My Apps</string>
+    <string name="title_profile">Profile</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="sample_name">Teguh Prabowo</string>
+    <string name="sample_gender">Male</string>
+    <string name="sample_phone">+6289699972923</string>
+    <string name="sample_1">sample_1</string>
+    <string name="sample_2">sample_2</string>
+    <string name="sample_3">sample_3</string>
+    <string name="sample_4">sample_4</string>
 </resources>
