@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/login_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/AloBlue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/login_subtitlte"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/EmailFormTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="5dp"
+            android:text="@string/email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:typeface="sans" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/EmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/email"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rounded_corner"
+                android:padding="@dimen/fab_margin" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/PasswordFormTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="5dp"
+            android:text="@string/password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:typeface="sans" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/PasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/password"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_rounded_corner"
+                android:inputType="textPassword"
+                android:padding="@dimen/fab_margin" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/ButtonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:backgroundTint="#1776CD"
+            android:text="@string/masuk"
+            app:cornerRadius="15dp"
+            app:iconTint="#FFFFFF" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
